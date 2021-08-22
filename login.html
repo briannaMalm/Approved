@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" href="universal.css" />
+		<link rel="stylesheet" href="signup.css" />
+		<script src="signup.js"></script>
+		<link rel="stylesheet" href="styles.css" />
+		<style>
+			body {
+				/* FLEX BOX PROPERTIES */
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+
+
+				/* BOX MODEL PROPERTIES */
+				margin: 0;
+				padding: 0;
+				min-height: 100vh;
+
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="navegador">
+			<ul>
+				<a href="index.html"><img src="https://smoothwolf76.qoom.space/peddie/Ab.png" id="logo" height="100" width="100" /></a>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="getting.html">Getting Started</a></li>
+				<li><a href="signup.html">Sign up</a></li>
+			</ul>
+		</div>
+
+		<div class="container">
+			<h1>Login</h1>
+			<form action='/~/peddie/login' method='POST' enctype='multipart/form-data'>
+				<label for="email"><b>Email</b></label>
+				<input type="text" placeholder="Enter Email" name="email" required />
+				<label for="psw"><b>Password</b></label>
+				<input type="password" placeholder="Enter Password" name="psw" required />
+				<br>
+				<br>
+				<input type='submit' value='Login'>
+				<input type="reset" value="Cancel">
+				<!-- THIS TELLS OUR SERVER WHERE TO SEND THE USER AFTER GETTING THE DATA-->
+				<input type='hidden' name='redirecturl' value='/~/peddie/account'>
+				<br>
+				<br>
+				<a href="signup.html">Sign Up instead</a>
+			</form>
+		</div>
+
+	</body>
+
+</html>

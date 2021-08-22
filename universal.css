@@ -1,0 +1,137 @@
+*,
+*:before,
+*:after {
+  box-sizing: inline;
+  font-family: "Urbanist", sans-serif;
+}
+body {
+  background-color: #E5CFE5;
+}
+
+#logo {
+  position: relative;
+  top: -25%;
+  left: -115%;
+  float: left;
+  /* height:5em;
+  text-allign:left; */
+  z-index: 999;
+}
+img,
+video {
+  max-height: 18%;
+  width: auto;
+}
+
+nav {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+  margin-top: -8px;
+  padding-left: 9%;
+  padding-bottom: 30px;
+  padding-top: 45px;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  z-index: 999;
+  background-color: #E5CFE5;
+}
+nav a {
+  float: left;
+  font-size: 1.5vw;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #E5CFE5;
+}
+nav a:hover {
+  color: #E5CFE5;
+}
+#login {
+  float: right;
+  padding-left: 54%;
+  padding-right: 100%;
+  position: fixed;
+  top: 0%;
+  padding-top: 50px;
+  padding-bottom: 44.5px;
+  z-index: 999;
+  background-color: #B8B5FF;
+}
+button {
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+button:hover{
+  opacity: 0.8; 
+  color:#E5CFE5;
+}
+body {
+	/* FLEX BOX PROPERTIES */
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	/*justify-content:space-between;*/
+	
+	
+	/* BOX MODEL PROPERTIES */
+	margin: 0;
+	padding:0;
+	min-height: 100vh;
+	
+}
+
+
+header {
+	color:black;
+	background-color: #fdf0e6;
+	height:400px;
+	width:100%;
+}
+
+#about {
+		/* Add background image */
+	background-image: url("https://cdn.dribbble.com/users/1889436/screenshots/14562867/tech_hand_4x.png");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	
+	/* Center the content vertically and horizontally */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color:white;
+	background-color: black;
+	min-height:400px;
+	width:100%;
+}
+
+#portfolio {
+	color:black;
+	background-color: white;
+	min-height:400px;
+	width:100%;
+}
+
+#contact {
+	color:black;
+	background-color: #fdf0e6;
+	min-height:400px;
+	width:100%;
+}
+
+footer {
+	color:black;
+	background-color:#B8B5FF;
+	height:120px;
+	width:100%;
+}

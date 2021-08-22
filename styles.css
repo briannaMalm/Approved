@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap');
+
+
+#navegador ul{
+   list-style-type: none;
+   text-align: center;
+}
+#navegador li{
+   display: inline;
+   text-align:center;
+   margin: 0 10px 0 0;
+}
+#navegador li a {
+   padding: 2px 7px 2px 7px;
+   color:#00000;
+   background-color:##E5CFE5
+   border: 1px solid:#E4FBFF;
+   text-decoration: none;
+ 
+}
+
+   #navegador li a:hover{
+   background-color:;
+   color:#EDEEF7;
+   font-family;"Urbanist"
+   
+}
+
+form {
+  border: 3px solid #f1f1f1;
+  font-family:"Urbanist";
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family:"Urbanist";
+}
+body{
+	background-color:#B8B5FF;
+}
+h1 {
+	color:#EDEEF7;
+}
+centerr {
+  text-align: center;
+  z-index: 500;
+  position:relative;
+  background-color: transparent;
+  color: white
+}
+/*h1 {
+	animation-duration: 8s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}*/
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 300px;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}

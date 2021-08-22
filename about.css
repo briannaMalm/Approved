@@ -1,0 +1,24 @@
+#navegador ul{
+   list-style-type: none;
+   text-align: center;
+}
+#navegador li{
+   display: inline;
+   text-align:center;
+   margin: 0 10px 0 0;
+}
+#navegador li a {
+   padding: 2px 7px 2px 7px;
+   color:#00000;
+   background-color:#EDEEF7
+   border: 1px solid:#E4FBFF;
+   text-decoration: none;
+ 
+}
+
+   #navegador li a:hover{
+   background-color:#EDEEF7;
+   color:#EDEEF7;
+   font-family;"Urbanist"
+   
+}
